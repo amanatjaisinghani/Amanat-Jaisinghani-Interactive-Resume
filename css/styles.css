@@ -1,0 +1,181 @@
+/* HTML Elements */
+hr {
+  border-width: thick;
+  margin: 10px auto 10px auto;
+  width: 25%;
+}
+
+h2 {
+  color: #533E85;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h5 {
+  color: #634A9E;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+}
+
+h6 {
+  color: #6B5B64;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.05rem;
+}
+
+p {
+  color: #6B5B64;
+  font-family: 'Roboto', sans-serif;
+}
+
+.quote {
+  font-style: italic;
+
+}
+
+/* Sections */
+
+.purple-section {
+  background-color: #ebc8dc;
+  padding: 3% 20%;
+}
+
+.white-section {
+  background-color: #F0F0F0;
+  padding: 3% 20%;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 0;
+  position: relative;
+  text-align: center;
+}
+
+/* Title */
+.navbar {
+  position: fixed;
+  right: 0px;
+  z-index: 999;
+}
+
+.nav-link {
+  color: #6B5B64;
+}
+
+.nav-link:hover {
+  color: #52454C;
+}
+
+.title-image {
+  width: 100%;
+  z-index: -1;
+}
+
+.title-text {
+  color: #52454C;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 4.5%;
+  position: absolute;
+  text-align: center;
+  z-index: +1;
+}
+
+/* Profile */
+
+.blurb {
+  color: #6B5B64;
+  font-size: 1.15rem;
+}
+
+.profile-image {
+  border-radius: 50%;
+  padding-bottom: 3%;
+}
+
+.profile-text {
+  font-size: 1.05rem;
+}
+
+/* Experience */
+
+.highlight {
+  text-decoration: underline;
+}
+
+.row {
+  text-align: left;
+}
+
+/* Skills */
+
+.progress {
+  height: 0.75rem;
+  margin: 3% 20%;
+}
+
+.progress-bar {
+  background-color: #533E85;
+}
+
+.skills-row {
+  text-align: center;
+}
+
+/* Hobbies */
+
+.hobbies-img {
+  /* height: 25%; */
+  padding-bottom: 3%;
+  /* width: 25%; */
+}
+
+.carousel-button {
+  color: #533E85;
+}
+
+
+/* .col-left {
+  padding-right: 25%;
+}
+
+.col-right {
+  padding-left: 25%;
+}
+
+.hobbies-img-left {
+  float: left;
+  padding: 0 3%;
+  width: 25%;
+}
+
+.hobbies-img-right {
+  float: right;
+  padding: 0 3%;
+  width: 25%;
+}
+
+.hobbies-row-left {
+text-align: left;
+}
+
+.hobbies-row-right {
+  text-align: right;
+} */
+
+
+/* Footer */
+#footer {
+  background-color: #F6C6EA;
+  padding: 3% 20% 0 20%;
+}
+
+.btn {
+  padding: 0;
+  color: #6B5B64;
+}
+
+.p-footer{
+  font-size: small;
+  margin: 3% 0 0 0;
+  text-align: center;
+}
